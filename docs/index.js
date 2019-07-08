@@ -9050,6 +9050,36 @@ module.exports = function (regExp, replace) {
 
 __webpack_require__(329);
 
+var scrollBtn = document.querySelector('.scroll__top');
+
+window.onscroll = function () {
+   var navMenu = document.querySelector('#navMenu');
+   if (window.pageYOffset <= 10) navMenu.className = 'menu';else navMenu.className = 'menu_scroll';
+   scrollFunction();
+};
+
+var scrollFunction = function scrollFunction() {
+   if (window.pageYOffset <= 700) scrollBtn.className = ' ';else scrollBtn.className = 'scroll__top_active';
+};
+
+var topFunction = function topFunction() {
+   scrollBtn.addEventListener('click', function () {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+   });
+};
+
+var burgerFunction = function burgerFunction() {
+   var burger = document.querySelector('.burger');
+   var navItems = document.querySelector('.menu__items');
+   burger.addEventListener('click', function () {
+      navItems.classList.toggle('menu__items_opened');
+   });
+};
+
+burgerFunction();
+topFunction();
+
 /***/ }),
 /* 329 */
 /***/ (function(module, exports) {

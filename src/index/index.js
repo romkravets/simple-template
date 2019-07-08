@@ -10,8 +10,7 @@ window.onscroll = () => {
  }
 
 const scrollFunction = () => {
-   if(window.pageYOffset <= 1000) scrollBtn.className = ' '; else scrollBtn.className = 'scroll__top_active';
-   console.log(scrollBtn);
+   if(window.pageYOffset <= 700) scrollBtn.className = ' '; else scrollBtn.className = 'scroll__top_active';
 }
 
 const topFunction = () => {
