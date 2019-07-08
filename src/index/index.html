@@ -1,304 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>Cheshire Cat</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="../../assets/images/black-cat.png"
-    />
+    <link rel="icon" type="image/png" href="../../assets/images/black-cat.png" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="main-header">
-      <nav class="top-line">
-        <div class="top-line__contact">
-          <div class="top-line__email">
-            <a class="menu__link icon__img-hover" href="#">
-              <img
-                class="top-line__img"
-                src="../../assets/images/message-white.png"
-                alt="Email Cheshire Cat"
-              />
-              cheshire.cat@gmail.com</a
-            >
-          </div>
-          <div class="top-line__phone">
-            <a class="menu__link icon__img-hover" href="#">
-              <img
-                class="top-line__img"
-                src="../../assets/images/phone.png"
-                alt="Phone call Cheshire Cat"
-              />
-              +38(069)-956-12-00</a
-            >
-          </div>
+        <nav class="top-line">
+            <div class="top-line__contact">
+                <div class="top-line__email">
+                    <a class="menu__link icon__img-hover" href="#">
+                        <img class="top-line__img" src="../../assets/images/message-white.png" alt="Email Cheshire Cat" /> cheshire.cat@gmail.com
+                    </a>
+                </div>
+                <div class="top-line__phone">
+                    <a class="menu__link icon__img-hover" href="#">
+                        <img class="top-line__img" src="../../assets/images/phone.png" alt="Phone call Cheshire Cat" /> +38(069)-956-12-00
+                    </a>
+                </div>
+            </div>
+            <ul class="top-line__soc-icon">
+                <li>
+                    <a class="icon__img-hover" href="#">
+                        <img src="../../assets/images/facebook-letter-logo.png" alt="Facebook Cheshire Cat" />
+                    </a>
+                </li>
+                <li>
+                    <a class="icon__img-hover" href="#">
+                        <img src="../../assets/images/youtube.png" alt="Youtube Cheshire Cat" />
+                    </a>
+                </li>
+                <li>
+                    <a class="icon__img-hover" href="#">
+                        <img src="../../assets/images/pinterest.png" alt="Pinterest Cheshire Cat" />
+                    </a>
+                </li>
+                <li>
+                    <a class="icon__img-hover" href="#">
+                        <img src="../../assets/images/google-plus.png" alt="Google Plus Cheshire Cat" />
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="menu" id="navMenu">
+            <div class="menu__container">
+                <div class="logo">
+                    <a class="menu__link" href="#">
+                        <img class="logo__img" src="../../assets/images/logo.png" alt="Cheshire Cat" />
+                        <div class="logo__caption">Cheshire Cat</div>
+                    </a>
+                </div>
+                <input type="checkbox" class="openMenu" id="openMenu" />
+                <label for="openMenu" class="burger">
+                    <span class="spinner"></span>
+                    <span class="spinner"></span>
+                    <span class="spinner"></span>
+                </label>
+                <ul class="menu__items">
+                    <li class="menu__item"><a class="menu__link" href="">Home</a></li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Products</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="">Blog</a></li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Projects</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Contact Us</a>
+                    </li>
+                    <li class="menu__item menu__item_mobile-search">
+                        <a href="#">
+                            <img src="../../assets/images/glass-search.png" alt="search in blog Cheshire Cat" />
+                        </a>
+                    </li>
+                    <li class="menu__item menu__item_mobile-element">
+                        <a href="#">
+                            <img src="../../assets/images/message-white.png" alt="Email Cheshire Cat" />
+                        </a>
+                    </li>
+                    <li class="menu__item menu__item_mobile-element">
+                        <a href="#">
+                            <img src="../../assets/images/phone.png" alt="Phone call Cheshire Cat" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-description-container section-white-color">
+            <h1 class="main-description-container__title">Cat</h1>
+            <p>Hey, I am Cheshire Cat. Happy to see you there.</p>
+            <div class="main-description-container__btn-container">
+                <button class="btn-contact">Contact Us</button>
+                <button class="btn__view">View Projects</button>
+            </div>
+            <div class="btn__next">
+                <a href="#footer">
+                    <img src="../../assets/images/down-arrow.png" alt="show more in site Cheshire Cat" />
+                </a>
+            </div>
         </div>
-        <ul class="top-line__soc-icon">
-          <li>
-            <a class="icon__img-hover" href="#">
-              <img
-                src="../../assets/images/facebook-letter-logo.png"
-                alt="Facebook Cheshire Cat"
-              />
-            </a>
-          </li>
-          <li>
-            <a class="icon__img-hover" href="#">
-              <img
-                src="../../assets/images/youtube.png"
-                alt="Youtube Cheshire Cat"
-              />
-            </a>
-          </li>
-          <li>
-            <a class="icon__img-hover" href="#">
-              <img
-                src="../../assets/images/pinterest.png"
-                alt="Pinterest Cheshire Cat"
-              />
-            </a>
-          </li>
-          <li>
-            <a class="icon__img-hover" href="#">
-              <img
-                src="../../assets/images/google-plus.png"
-                alt="Google Plus Cheshire Cat"
-              />
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="menu" id="navMenu">
-        <div class="menu__container">
-          <div class="logo">
-            <a class="menu__link" href="#">
-              <img
-                class="logo__img"
-                src="../../assets/images/logo.png"
-                alt="Cheshire Cat"
-              />
-              <div class="logo__caption">Cheshire Cat</div>
-            </a>
-          </div>
-          <input type="checkbox" class="openMenu" id="openMenu" />
-          <label for="openMenu" class="burger">
-            <span class="spinner"></span>
-            <span class="spinner"></span>
-            <span class="spinner"></span>
-          </label>
-          <ul class="menu__items">
-            <li class="menu__item"><a class="menu__link" href="">Home</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="">Products</a>
-            </li>
-            <li class="menu__item"><a class="menu__link" href="">Blog</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="">Projects</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="">Contact Us</a>
-            </li>
-            <li class="menu__item menu__item_mobile-search">
-              <a href="#">
-                <img
-                  src="../../assets/images/glass-search.png"
-                  alt="search in blog Cheshire Cat"
-                />
-              </a>
-            </li>
-            <li class="menu__item menu__item_mobile-element">
-              <a href="#">
-                <img
-                  src="../../assets/images/message-white.png"
-                  alt="Email Cheshire Cat"
-                />
-              </a>
-            </li>
-            <li class="menu__item menu__item_mobile-element">
-              <a href="#">
-                <img
-                  src="../../assets/images/phone.png"
-                  alt="Phone call Cheshire Cat"
-                />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="main-description-container section-white-color">
-        <h1 class="main-description-container__title">Cat</h1>
-        <p>Hey, I am Cheshire Cat. Happy to see you there.</p>
-        <div class="main-description-container__btn-container">
-          <button class="btn-contact">Contact Us</button>
-          <button class="btn__view">View Projects</button>
-        </div>
-        <div class="btn__next">
-          <a href="#footer">
-            <img
-              src="../../assets/images/down-arrow.png"
-              alt="show more in site Cheshire Cat"
-            />
-          </a>
-        </div>
-      </div>
     </header>
     <main>
-      <section class="prodacts">
-        <h2 class="section__title">Products</h2>
-        <p class="section__description">Choose what you like in our shop</p>
-        <div class="product-list">
-          <article class="product-card">
-            <a href="">
-              <img
-                src="../../assets/images/cat.jpg"
-                alt="Cheshire Cat Backgrounds"
-              />
-              <div class="hover-container">
-                <h3 class="product-card__caption">Backgrounds</h3>
-                <span class="btn__enjoy">More</span>
-              </div>
-            </a>
-          </article>
-          <article class="product-card">
-            <a href="">
-              <img
-                src="../../assets/images/product-toys.jpg"
-                alt="Cheshire Cat Toys"
-              />
-              <div class="hover-container">
-                <h3 class="product-card__caption">Cheshire Cat Toys</h3>
-                <span class="btn__enjoy">More</span>
-              </div>
-            </a>
-          </article>
-          <article class="product-card">
-            <a href="">
-              <img
-                src="../../assets/images/product-video.jpg"
-                alt="Cheshire Cat Video"
-              />
-              <div class="hover-container">
-                <h3 class="product-card__caption">Cheshire Cat Videos</h3>
-                <span class="btn__enjoy">More</span>
-              </div>
-            </a>
-          </article>
-        </div>
-      </section>
-      <section class="section-content">
-          <h2 class="section__title">Projects</h2>
-          <p class="section__description">The Cheshire Cat is a fictional cat popularised by Lewis Carroll in Alice's Adventures in Wonderland and known for its distinctive mischievous grin.</p>
-          <div class="section-content__list">
-              <article class="section-content__card">
-                  <img src="../../assets/images/content.jpg" alt="Cheshire Cat Lewis Carroll in Alice's Adventures">
-              </article>
-              <article class="section-content__card_right">
-                  <img class="section-content__icon" src="../../assets/images/black-cat.png" alt="Black cat">
-                <h3 class="section-content__caption">Cheshire cat</h3>
-                <p class="section-content__text">He grins like a Cheshire cat; said of any one who shows his teeth and gums in laughing.</p>
-                <button class="btn-contact">More cats</button>
-            </article>
-          </div>
+        <section class="prodacts">
+            <h2 class="section__title">Products</h2>
+            <p class="section__description">Choose what you like in our shop</p>
+            <div class="product-list">
+                <article class="product-card">
+                    <a href="">
+                        <img src="../../assets/images/cat.jpg" alt="Cheshire Cat Backgrounds" />
+                        <div class="hover-container">
+                            <h3 class="product-card__caption">Backgrounds</h3>
+                            <span class="btn__enjoy">More</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="product-card">
+                    <a href="">
+                        <img src="../../assets/images/product-toys.jpg" alt="Cheshire Cat Toys" />
+                        <div class="hover-container">
+                            <h3 class="product-card__caption">Cheshire Cat Toys</h3>
+                            <span class="btn__enjoy">More</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="product-card">
+                    <a href="">
+                        <img src="../../assets/images/product-video.jpg" alt="Cheshire Cat Video" />
+                        <div class="hover-container">
+                            <h3 class="product-card__caption">Cheshire Cat Videos</h3>
+                            <span class="btn__enjoy">More</span>
+                        </div>
+                    </a>
+                </article>
+            </div>
         </section>
-      <section class=" section-form section-white-color">
-        <div class="section-form__description">
-          <h2 class="contact__title">Contact Us</h2>
-        </div>
-        <form
-          class="section-form__container contact-elements"
-          method="POST"
-          action="https://formspree.io/romann.kravets@gmail.com"
-        >
-          <div class="contact-elements__group">
-            <input
-              class="contact-elements__control"
-              type="text"
-              placeholder="Your name"
-            />
-          </div>
-          <div class="contact-elements__group">
-            <input
-              class="contact-elements__control"
-              type="text"
-              placeholder="Your email"
-            />
-          </div>
-          <div>
-            <textarea
-              class="contact-elements__control contact-elements__control_textarea"
-              rows="3"
-              placeholder="Your text"
-            ></textarea>
-          </div>
-          <button type="submit" class="btn-contact">Send message</button>
-        </form>
-      </section>
+        <section class="section-content">
+            <h2 class="section__title">Projects</h2>
+            <p class="section__description">
+                The Cheshire Cat is a fictional cat popularised by Lewis Carroll in Alice's Adventures in Wonderland and known for its distinctive mischievous grin.
+            </p>
+            <div class="section-content__list">
+                <article class="section-content__card">
+                    <img src="../../assets/images/content.jpg" alt="Cheshire Cat Lewis Carroll in Alice's Adventures" />
+                </article>
+                <article class="section-content__card_right">
+                    <img class="section-content__icon" src="../../assets/images/black-cat.png" alt="Black cat" />
+                    <h3 class="section-content__caption">Cheshire cat</h3>
+                    <p class="section-content__text">
+                        He grins like a Cheshire cat; said of any one who shows his teeth and gums in laughing.
+                    </p>
+                    <button class="btn-contact">More cats</button>
+                </article>
+            </div>
+        </section>
+        <section class=" section-form section-white-color">
+            <div class="section-form__description">
+                <h2 class="contact__title">Contact Us</h2>
+            </div>
+            <form class="section-form__container contact-elements" method="POST" action="https://formspree.io/romann.kravets@gmail.com">
+                <div class="contact-elements__group">
+                    <input class="contact-elements__control" type="text" placeholder="Your name" />
+                </div>
+                <div class="contact-elements__group">
+                    <input class="contact-elements__control" type="text" placeholder="Your email" />
+                </div>
+                <div>
+                    <textarea class="contact-elements__control contact-elements__control_textarea" rows="3" placeholder="Your text"></textarea>
+                </div>
+                <button type="submit" class="btn-contact">Send message</button>
+            </form>
+        </section>
     </main>
     <footer id="footer">
-      <nav class="top-line top-line_darken">
-        <div class="top-line__contact">
-          <div class="top-line__email">
-            <a class="menu__link icon__img-hover" href="#">
-              <img
-                class="top-line__img"
-                src="../../assets/images/message-white.png"
-                alt="Email Cheshire Cat"
-              />
-              cheshire.cat@gmail.com</a
-            >
-          </div>
-          <div class="top-line__phone">
-            <a class="menu__link icon__img-hover" href="#">
-              <img
-                class="top-line__img"
-                src="../../assets/images/phone.png"
-                alt="Phone call Cheshire Cat"
-              />
-              +38(069)-956-12-00</a
-            >
-          </div>
-        </div>
-        <ul class="top-line__soc-icon">
-          <li>
-            <a class="icon__img-hover" href="#">
-              <img
-                src="../../assets/images/facebook-letter-logo.png"
-                alt="Facebook Cheshire Cat"
-              />
-            </a>
-          </li>
-          <li>
-            <a class="icon__img-hover" href="#">
-              <img
-                src="../../assets/images/youtube.png"
-                alt="Youtube Cheshire Cat"
-              />
-            </a>
-          </li>
-          <li>
-            <a class="icon__img-hover" href="#">
-              <img
-                src="../../assets/images/pinterest.png"
-                alt="Pinterest Cheshire Cat"
-              />
-            </a>
-          </li>
-          <li>
-            <a class="icon__img-hover" href="#">
-              <img
-                src="../../assets/images/google-plus.png"
-                alt="Google Plus Cheshire Cat"
-              />
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div class="footer__copy">
-        Copyright © 2019
-        <a class="footer__link-author" href="https://github.com/romkravets">
+        <nav class="top-line top-line_darken">
+            <div class="top-line__contact">
+                <div class="top-line__email">
+                    <a class="menu__link icon__img-hover" href="#">
+                        <img class="top-line__img" src="../../assets/images/message-white.png" alt="Email Cheshire Cat" /> cheshire.cat@gmail.com
+                    </a>
+                </div>
+                <div class="top-line__phone">
+                    <a class="menu__link icon__img-hover" href="#">
+                        <img class="top-line__img" src="../../assets/images/phone.png" alt="Phone call Cheshire Cat" /> +38(069)-956-12-00
+                    </a>
+                </div>
+            </div>
+            <ul class="top-line__soc-icon">
+                <li>
+                    <a class="icon__img-hover" href="#">
+                        <img src="../../assets/images/facebook-letter-logo.png" alt="Facebook Cheshire Cat" />
+                    </a>
+                </li>
+                <li>
+                    <a class="icon__img-hover" href="#">
+                        <img src="../../assets/images/youtube.png" alt="Youtube Cheshire Cat" />
+                    </a>
+                </li>
+                <li>
+                    <a class="icon__img-hover" href="#">
+                        <img src="../../assets/images/pinterest.png" alt="Pinterest Cheshire Cat" />
+                    </a>
+                </li>
+                <li>
+                    <a class="icon__img-hover" href="#">
+                        <img src="../../assets/images/google-plus.png" alt="Google Plus Cheshire Cat" />
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer__copy">
+            Copyright © 2019
+            <a class="footer__link-author" href="https://github.com/romkravets">
           Roman Kravets</a
         >
       </div>
