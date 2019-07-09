@@ -9050,41 +9050,39 @@ module.exports = function (regExp, replace) {
 
 __webpack_require__(329);
 
-var scrollBtn = document.querySelector('.scroll__top');
+var _burgerToggler = __webpack_require__(330);
 
 window.onscroll = function () {
    var navMenu = document.querySelector('#navMenu');
    if (window.pageYOffset <= 10) navMenu.className = 'menu';else navMenu.className = 'menu_scroll';
-   scrollFunction();
 };
 
-var scrollFunction = function scrollFunction() {
-   if (window.pageYOffset <= 700) scrollBtn.className = ' ';else scrollBtn.className = 'scroll__top_active';
-};
-
-var topFunction = function topFunction() {
-   scrollBtn.addEventListener('click', function () {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-   });
-};
-
-var burgerFunction = function burgerFunction() {
-   var burger = document.querySelector('.burger');
-   var navItems = document.querySelector('.menu__items');
-   burger.addEventListener('click', function () {
-      navItems.classList.toggle('menu__items_opened');
-   });
-};
-
-burgerFunction();
-topFunction();
+(0, _burgerToggler.burgerToggler)();
 
 /***/ }),
 /* 329 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 330 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+   value: true
+});
+var burger = document.querySelector('.burger');
+var navItems = document.querySelector('.menu__items');
+
+var burgerToggler = exports.burgerToggler = function burgerToggler() {
+   burger.addEventListener('click', function () {
+      navItems.classList.toggle('menu__items_opened');
+   });
+};
 
 /***/ })
 /******/ ]);
