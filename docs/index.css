@@ -121,6 +121,7 @@ body {
   width: 20px; }
 
 .menu__item a:hover {
+  text-decoration: none;
   border-bottom: 1px solid var(--accent-color);
   transition: 500ms all;
   color: var(--accent-color); }
