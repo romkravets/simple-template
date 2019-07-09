@@ -1,7 +1,12 @@
 :root {
    --main-color: rgb(54, 54, 54);
+   --body-bgc: rgb(247, 247, 247);
    --accent-color: rgb(255, 204, 1);
    --white-color: rgb(255, 255, 255);
-   --page-content-width: 980px;
+   --page-content-width: 1400px;
+   --black-color: rgb(0, 0, 0);
+   --bover-black: rgba(0, 0, 0, 0.8);
+   --section-bgc-darken: rgb(230, 230, 230);
+   --scroll-menu-color: rgb(23, 161, 190);
    scroll-behavior: smooth;
  }

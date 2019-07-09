@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, p, header, nav, section, footer {
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: var(--body-bgc);
   color: var(--main-color);
   font-family: "Raleway", sans-serif;
   margin: auto;
